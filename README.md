@@ -1,5 +1,27 @@
 ### Hi there 👋
 
+## Trabalhando no momento
+### Desenvolvedor Senior Luiza Labs
+C#
+APS Classic 3.0
+Java
+Nodejs
+Python
+Visual Basic 6.0
+MSSQL
+Oracle
+MySQL
+MongoDB
+Redis
+RabbitMQ
+
+### Estudando
+Nextjs
+Tailwindcss
+
+
+
+
 <!--
 **leonardocintra/leonardocintra** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
