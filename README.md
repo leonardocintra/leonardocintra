@@ -23,6 +23,7 @@ Acesse o site e veja meus projetos, minhas ideias e meus blogs :D
 - Spring
 - Nextjs
 - Nestjs
+- Express
 
 ### Bancos de dados
 - Oracle
@@ -39,6 +40,9 @@ Acesse o site e veja meus projetos, minhas ideias e meus blogs :D
 
 ### Outros
 - EasyPanel
+- Docker
 - N8N
 - AWS Lambda
 - AI Promps
+- Magalu Cloud
+- Kinde (Auth)
