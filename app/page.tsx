@@ -22,8 +22,8 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+          Pai de 4 filhos, desenvolvedor de sistemas há mais de 11 anos no Luizalabs (Magalu). Atuei maior parte em desenvolvimento
+          backend com Java e Nodejs. Aqui posso mostrar meus projetos pessoais, ja que a familia esta sempre crescendo ... :P
         </p>
         <p>
           Nextfolio includes all the essentials for a stunning portfolio: SEO,

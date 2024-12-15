@@ -15,7 +15,7 @@ export default function Photos() {
         columns={3}
         images={[
           {
-            src: "/photos/photo1.jpg",
+            src: "/photos/photo1.jpeg",
             alt: "Roman columns",
             href: "https://unsplash.com/photos/people-walking-near-building-during-daytime-dFLBDQQeffU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
           },
@@ -44,27 +44,69 @@ export default function Photos() {
             alt: "Colosseum",
             href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
           },
+          {
+            src: "/photos/photo7.jpg",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
+          {
+            src: "/photos/photo9.jpg",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
+          {
+            src: "/photos/photo10.jpg",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
+          {
+            src: "/photos/photo12.jpg",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
+          {
+            src: "/photos/photo13.jpg",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
+          {
+            src: "/photos/photo14.JPG",
+            alt: "Colosseum",
+            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+          },
         ]}
       />
 
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
+          { src: "/photos/photo1.jpeg", alt: "Roman columns" },
           { src: "/photos/photo2.jpg", alt: "Big Ben" },
           { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
           { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo5.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo6.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo7.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo9.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo10.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo12.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo13.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo14.JPG", alt: "Eiffel Tower" },
         ]}
       />
 
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
+          { src: "/photos/photo1.jpeg", alt: "Roman columns" },
           { src: "/photos/photo2.jpg", alt: "Big Ben" },
           { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
           { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
           { src: "/photos/photo5.jpg", alt: "Taj Mahal" },
+          { src: "/photos/photo10.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo14.JPG", alt: "Eiffel Tower" },
+          { src: "/photos/photo13.jpg", alt: "Eiffel Tower" },
+          { src: "/photos/photo12.jpg", alt: "Eiffel Tower" },
           { src: "/photos/photo6.jpg", alt: "Colosseum" },
         ]}
       />
