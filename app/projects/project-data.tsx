@@ -7,24 +7,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Rex Helicoides",
     year: 2023,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+      "Site desenvolvido em Nextjs que é responsavel por divulgar projetos de produçaõ de helicoides para várias industrias e agricultura.",
+    url: "https://www.rexhelicoides.com.br",
   },
   {
-    title: "Project Two",
-    year: 2022,
+    title: "Tchau Audio!",
+    year: 2024,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
-  },
-  {
-    title: "Project Three",
-    year: 2021,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
+      "Uma automação que converte texto em audio para usuarios do whastapp (também para outras plataformas caso necessário). O Whatsapp já tem um recurso nativo que transcreve audio para texto, porem é bem limitado. Esse projeto é uma melhoria muito util para que é deficiente auditivo como eu",
     url: "https://example.com/",
   },
 ];
