@@ -27,4 +27,18 @@ export const projects: Project[] = [
       "Site em Nextjs que é para vendas de maquinas agricolas e implementos para agricultura.",
     url: "https://cria-site.ypg4r9.easypanel.host/",
   },
+  {
+    title: "Lexci - Laboratorio",
+    year: 2017,
+    description:
+      "Site em Nextjs que é para consulta de exames laboratoriais",
+    url: "https://www.lexci.com.br/",
+  },
+  {
+    title: "Gobex Exames - Laboratorio",
+    year: 2017,
+    description:
+      "Site em Nextjs que é para consulta de exames laboratoriais",
+    url: "https://www.gobexexames.com.br/",
+  }
 ];
