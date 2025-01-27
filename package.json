@@ -2,7 +2,7 @@
   "private": true,
   "license": "MIT",
   "engines": {
-    "node": "23"
+    "node": "22"
   },
   "scripts": {
     "dev": "next dev",
