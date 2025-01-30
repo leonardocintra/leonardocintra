@@ -59,8 +59,13 @@ export default function Footer() {
         }
       `}</style>
       <SocialLinks />
-      <div className="mt-3 text-slate-200 underline">
-        <Link href={"privacity"}>Politicas de privacidade</Link>
+      <div className="flex justify-between mt-3 text-slate-200 underline px-5">
+        <div>
+          <Link href={"privacity"}>Politicas de privacidade</Link>
+        </div>
+        <div>
+          <Link href={"terms"}>Termos e Condições</Link>
+        </div>
       </div>
     </small>
   );
