@@ -6,7 +6,7 @@ interface PageProps {
   };
 }
 
-export default function AppTchauAudioPage({ params }: PageProps) {
+export default function AppTchauAudioPageConnect({ params }: PageProps) {
   const { instanceName } = params;
 
   return (
