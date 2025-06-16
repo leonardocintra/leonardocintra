@@ -42,7 +42,7 @@ export default function Portfolio() {
   const [isMounted, setIsMounted] = useState(false);
 
   const WHASTAPP =
-    "https://wa.me/5516999735008?text=Gostaria de testar o AudioText Pro!";
+    "https://wa.me/5516999735008?text=Vim do seu site! Gostaria de trocar informações ...";
 
   // Mouse tracking for interactive effects
   useEffect(() => {
