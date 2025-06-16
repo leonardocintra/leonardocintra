@@ -6,6 +6,10 @@ import React, { useState, useEffect } from "react";
 const AudioTextProLanding = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
+  const FORM_LINK = "https://n8n.leonardocintra.com.br/form/tchauaudio";
+  const WHASTAPP =
+    "https://wa.me/5516999735008?text=Gostaria de testar o AudioText Pro!";
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 100);
@@ -59,9 +63,11 @@ const AudioTextProLanding = () => {
         ))}
       </ul>
 
-      <button className="w-full bg-white text-black bg-opacity-20 backdrop-blur-sm py-3 rounded-xl font-bold hover:bg-opacity-30 transition-all duration-300 border border-white border-opacity-30">
-        Começar Teste Grátis
-      </button>
+      <Link href={FORM_LINK}>
+        <button className="w-full bg-white hover:bg-green-300 text-black bg-opacity-20 backdrop-blur-sm py-3 rounded-xl font-bold hover:bg-opacity-30 transition-all duration-300 border border-white border-opacity-30">
+          Começar Teste Grátis
+        </button>
+      </Link>
     </div>
   );
 
@@ -186,12 +192,18 @@ const AudioTextProLanding = () => {
             </p>
 
             <div className="flex flex-col md:flex-row gap-4 justify-center items-center mb-12">
-              <button className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 px-8 py-4 rounded-full text-xl font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg">
+              <Link
+                href={FORM_LINK}
+                className="bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 px-8 py-4 rounded-full text-xl font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg"
+              >
                 🎯 Teste Grátis por 15 Dias
-              </button>
-              <button className="bg-white text-black bg-opacity-10 backdrop-blur-sm px-8 py-4 rounded-full text-xl font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-30">
+              </Link>
+              <Link
+                href={WHASTAPP}
+                className="bg-white text-black bg-opacity-10 backdrop-blur-sm px-8 py-4 rounded-full text-xl font-semibold hover:bg-opacity-20 transition-all duration-300 border border-white border-opacity-30"
+              >
                 📞 Falar com Especialista
-              </button>
+              </Link>
             </div>
 
             <div className="text-sm text-gray-300">
@@ -308,7 +320,8 @@ const AudioTextProLanding = () => {
               price="R$ 4,90 / mês"
               description="Ideal para uso pessoal"
               features={[
-                "Transcrições básicas",
+                "Apenas transcrições individuais",
+                "Maximo 2 min de audio",
                 "Suporte por email",
                 "Limite mensal definido",
               ]}
@@ -319,12 +332,12 @@ const AudioTextProLanding = () => {
               title="Prata"
               icon="🥈"
               price="R$ 7,90 / mês"
-              description="Perfeito para profissionais"
+              description="Atende a maioria dos casos"
               features={[
-                "Transcrições premium",
-                "Suporte prioritário",
+                "Apenas transcrições individuais",
+                "Maximo 10 min de audio",
+                "Resumo de audio > 1 min",
                 "Limite ampliado",
-                "Recursos extras",
               ]}
               isPopular={true}
               gradient="bg-gradient-to-b from-gray-400 to-gray-600"
@@ -336,10 +349,10 @@ const AudioTextProLanding = () => {
               price="R$ 11,90 / mês"
               description="Para empresas e power users"
               features={[
-                "Transcrições ilimitadas",
+                "Transcrições individuais",
+                "Transcrições em grupos",
                 "Suporte VIP 24/7",
                 "Recursos exclusivos",
-                "API personalizada",
               ]}
               gradient="bg-gradient-to-b from-yellow-400 to-yellow-600 text-gray-800"
             />
@@ -360,9 +373,11 @@ const AudioTextProLanding = () => {
           </p>
 
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-            <button className="bg-green-500 hover:bg-green-600 px-12 py-5 rounded-full text-2xl font-bold transform hover:scale-105 transition-all duration-300 shadow-2xl">
-              🎯 Ativar Meu Teste Grátis Agora
-            </button>
+            <Link href={FORM_LINK}>
+              <button className="bg-green-500 hover:bg-green-600 px-12 py-5 rounded-full text-2xl font-bold transform hover:scale-105 transition-all duration-300 shadow-2xl">
+                🎯 Ativar Meu Teste Grátis Agora
+              </button>
+            </Link>
           </div>
 
           <div className="mt-8 text-lg text-gray-300">
@@ -398,9 +413,11 @@ const AudioTextProLanding = () => {
                 WhatsApp
               </h3>
               <p className="text-gray-300 mb-4">Atendimento instantâneo</p>
-              <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-semibold transition-colors">
-                Chamar no WhatsApp
-              </button>
+              <Link href={WHASTAPP}>
+                <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-semibold transition-colors">
+                  Chamar no WhatsApp
+                </button>
+              </Link>
             </div>
           </div>
         </div>
