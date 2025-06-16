@@ -41,6 +41,9 @@ export default function Portfolio() {
   const [isVisible, setIsVisible] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
 
+  const WHASTAPP =
+    "https://wa.me/5516999735008?text=Gostaria de testar o AudioText Pro!";
+
   // Mouse tracking for interactive effects
   useEffect(() => {
     setIsMounted(true);
@@ -289,12 +292,12 @@ export default function Portfolio() {
                   </p>
                   <p className="text-lg text-gray-300 leading-relaxed mb-8">
                     Ola, sou o Leonardo Cintra! Tenho 35 anos, desenvolvedor de
-                    sistemas há mais de 12 anos no Luizalabs (Magalu). Tenho dedicado
-                    maior parte no desenvolvimento backend com Java e Node.js.
-                    Aqui posso mostrar meus projetos pessoais, já que a família
-                    está sempre crescendo... :p Além de pai de 4 filhos, sou
-                    apaixonado por criar soluções robustas e escaláveis. Este
-                    portfólio é meu espaço para compartilhar{" "}
+                    sistemas há mais de 12 anos no Luizalabs (Magalu). Tenho
+                    dedicado maior parte no desenvolvimento backend com Java e
+                    Node.js. Aqui posso mostrar meus projetos pessoais, já que a
+                    família está sempre crescendo... :p Além de pai de 4 filhos,
+                    sou apaixonado por criar soluções robustas e escaláveis.
+                    Este portfólio é meu espaço para compartilhar{" "}
                     <span className="text-green-400 font-semibold">
                       projetos pessoais{" "}
                     </span>
@@ -424,9 +427,11 @@ export default function Portfolio() {
                 incrível!
               </p>
 
-              <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                Iniciar Conversa
-              </button>
+              <Link href={WHASTAPP}>
+                <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
+                  Iniciar Conversa
+                </button>
+              </Link>
             </div>
           </div>
         </section>
