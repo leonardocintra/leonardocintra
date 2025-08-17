@@ -43,6 +43,16 @@ const projects: Project[] = [
     demoUrl: "/audioTextPro",
     githubUrl: "",
   },
+  {
+    id: 4,
+    title: "Acender lampada da garagem",
+    description:
+      "Com essa automação, você pode acender a lampada da garagem usando comandos de voz ou pelo seu celular.",
+    technologies: ["ESP32"],
+    image: "/projetos/acender-lampada-garagem.jpg",
+    demoUrl: "/acender-lampada-garagem",
+    githubUrl: "",
+  },
 ];
 
 export default function ProjectsPage() {
